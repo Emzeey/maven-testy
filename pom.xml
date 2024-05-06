@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.mkurzyna</groupId>
-    <artifactId>maven_testy</artifactId>
+    <groupId>org.mzawal</groupId>
+    <artifactId>maven-testy</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -13,5 +13,13 @@
         <maven.compiler.target>16</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub mzawal Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Emzeey/maven-testy.git</url>
+        </repository>
+    </distributionManagement>
 
 </project>
